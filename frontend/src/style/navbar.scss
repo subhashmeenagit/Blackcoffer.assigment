@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    background-color: burlywood;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+
+    >h1 {}
+
+    >div {
+        >a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            margin: 0 1rem;
+
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+
+
+}

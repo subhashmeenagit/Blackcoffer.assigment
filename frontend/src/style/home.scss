@@ -1,0 +1,111 @@
+.home {
+    width: 100%;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 210, 195);
+
+    >.basicinfo {
+
+        height: 8rem;
+        width: 90%;
+
+        border: 1px solid black;
+        padding: .6rem;
+        display: flex;
+        margin: auto;
+        margin-top: 1rem;
+
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        //   overflow-y: hidden;
+        overflow-x: scroll;
+
+        >.card {
+            padding: .5rem;
+            min-width: auto;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 7rem;
+            box-shadow: 1px 5px 5px black;
+            display: flex;
+            margin: 0 .2rem;
+            background-color: rgb(22, 22, 22);
+            color: white;
+            border-radius: 5px;
+            transition: all .5s;
+            cursor: pointer;
+
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            >h1 {
+                color: chocolate;
+                font-size: 1.2rem;
+                align-items: center;
+                text-align: center;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.allcont {
+    width: 100%;
+
+    padding: 1px;
+    overflow-x: scroll;
+    height: 60vh;
+
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    >.contcard {
+
+        width: 100%;
+        background-color: cadetblue;
+        margin: 1rem 0;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+}
+
+
+.url {
+    text-decoration: none;
+    padding: .3rem;
+    font-size: 2rem;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+
+    >a {
+        text-decoration: none;
+
+        &:hover {
+            color: blue;
+        }
+    }
+
+
+
+}
